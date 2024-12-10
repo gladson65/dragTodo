@@ -13,7 +13,7 @@ function Column({tasks}) {
                     tasks.length > 0 ?
                     tasks.map((task)=> {
                         return(
-                            <Task key={task.id} id={task.id} title={task.title}/>
+                            <Task key={task.id} id={task.id} title={task.task}/>
                         )
                     })
                     

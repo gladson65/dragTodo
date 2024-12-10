@@ -11,7 +11,9 @@ function Input({onSubmit}) {
         
         onSubmit(input);
 
+        // clear input state
         setInput("");
+        
     }
 
     return(
